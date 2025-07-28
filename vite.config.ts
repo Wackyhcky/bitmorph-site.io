@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/bitmorph-site/', // <-- set this to match your GitHub repo name
+    base: '/bitmorph-site.io/', // <-- set this to match your GitHub repo name
     plugins: [react()],
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
