@@ -3,32 +3,32 @@ import React, { useState } from 'react';
 
 const builds = [
   {
-    src: '/images/frostbite.jpg',
+    src: 'images/frostbite.jpg',
     title: 'The Frostbite',
     description: 'A clean, all-white build featuring an AIO liquid cooler and RGB accents for a stunning aesthetic.',
   },
   {
-    src: '/images/stealth-bomber.jpg',
+    src: 'images/stealth-bomber.jpg',
     title: 'Stealth Bomber',
     description: 'A minimalist all-black build focused on silent operation and pure, unadulterated performance.',
   },
   {
-    src: '/images/compact-powerhouse.jpg',
+    src: 'images/compact-powerhouse.jpg',
     title: 'Compact Powerhouse (ITX)',
     description: 'Maximum performance in a minimal footprint. This ITX build proves great things come in small packages.',
   },
   {
-    src: '/images/rgb-unicorn.jpg',
+    src: 'images/rgb-unicorn.jpg',
     title: 'The RGB Unicorn',
     description: 'A vibrant explosion of color, this build is for gamers who want their rig to be the center of attention.',
   },
   {
-    src: '/images/air-cooled-classic.jpg',
+    src: 'images/air-cooled-classic.jpg',
     title: 'Air-Cooled Classic',
     description: 'Relying on a premium air cooler, this build delivers exceptional thermal performance with rock-solid reliability.',
   },
   {
-    src: '/images/workstation.jpg',
+    src: 'images/workstation.jpg',
     title: 'The Workstation',
     description: 'A powerful machine built not just for gaming, but for content creation and heavy multitasking workloads.',
   },
