@@ -1,34 +1,43 @@
 
 import React, { useState } from 'react';
 
+// Import images directly so the build system can handle them
+import frostbiteImg from '../images/frostbite.png';
+import stealthBomberImg from '../images/stealth-bomber.png';
+import compactPowerhouseImg from '../images/compact-powerhouse.png';
+import rgbUnicornImg from '../images/rgb-unicorn.png';
+import airCooledClassicImg from '../images/air-cooled-classic.png';
+import workstationImg from '../images/workstation.png';
+
+
 const builds = [
   {
-    src: 'images/frostbite.jpg',
+    src: frostbiteImg,
     title: 'The Frostbite',
     description: 'A clean, all-white build featuring an AIO liquid cooler and RGB accents for a stunning aesthetic.',
   },
   {
-    src: 'images/stealth-bomber.jpg',
+    src: stealthBomberImg,
     title: 'Stealth Bomber',
     description: 'A minimalist all-black build focused on silent operation and pure, unadulterated performance.',
   },
   {
-    src: 'images/compact-powerhouse.jpg',
+    src: compactPowerhouseImg,
     title: 'Compact Powerhouse (ITX)',
     description: 'Maximum performance in a minimal footprint. This ITX build proves great things come in small packages.',
   },
   {
-    src: 'images/rgb-unicorn.jpg',
+    src: rgbUnicornImg,
     title: 'The RGB Unicorn',
     description: 'A vibrant explosion of color, this build is for gamers who want their rig to be the center of attention.',
   },
   {
-    src: 'images/air-cooled-classic.jpg',
+    src: airCooledClassicImg,
     title: 'Air-Cooled Classic',
     description: 'Relying on a premium air cooler, this build delivers exceptional thermal performance with rock-solid reliability.',
   },
   {
-    src: 'images/workstation.jpg',
+    src: workstationImg,
     title: 'The Workstation',
     description: 'A powerful machine built not just for gaming, but for content creation and heavy multitasking workloads.',
   },
