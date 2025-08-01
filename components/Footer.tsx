@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
             <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61578320553105" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-400 hover:text-cyan-400 transition-colors">
               <FacebookIcon className="w-7 h-7" />
             </a>
-            <a href="https://discord.gg/KNRWDDnYTj" target="_blank" rel="noopener noreferrer" aria-label="Discord" className="text-gray-400 hover:text-cyan-400 transition-colors">
+            <a href="https://discord.gg/ygA7DeTM6A" target="_blank" rel="noopener noreferrer" aria-label="Discord" className="text-gray-400 hover:text-cyan-400 transition-colors">
               <DiscordIcon className="w-7 h-7" />
             </a>
           </div>

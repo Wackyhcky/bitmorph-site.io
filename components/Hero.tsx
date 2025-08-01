@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
             Get a Free Quote
           </a>
           <a
-            href="https://discord.gg/your-invite-code"
+            href="https://discord.gg/ygA7DeTM6A"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-slate-700 text-white font-bold py-3 px-8 rounded-full hover:bg-slate-600 transition-all duration-300 transform hover:scale-105"
